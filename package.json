@@ -1,0 +1,30 @@
+{
+  "name": "parcel--starter",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel views/index.pug --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.pug --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run build:parcel"
+  },
+  "author": "Jonathan",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-pug": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "include-media": "^1.4.10",
+    "parcel": "^2.0.0-rc.0",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "sass": "^1.38.1"
+  },
+  "dependencies": {
+    "@prismicio/client": "^5.1.0",
+    "dotenv": "^10.0.0",
+    "gsap": "^3.7.1",
+    "imagesloaded": "^4.1.4",
+    "locomotive-scroll": "^4.1.2",
+    "prismic-dom": "^2.2.6",
+    "pug": "^3.0.2"
+  }
+}

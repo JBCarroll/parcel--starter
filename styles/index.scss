@@ -1,0 +1,14 @@
+@import './utils/functions';
+@import './utils/variables';
+@import './utils/responsive';
+@import './utils/mixins';
+
+@import './resets/resets';
+@import './resets/fonts';
+
+@import './shared/titles';
+@import './shared/descriptions';
+
+@import './partials/navigation';
+@import './partials/footer';
+@import './pages/home';
