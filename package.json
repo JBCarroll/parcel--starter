@@ -1,5 +1,5 @@
 {
-  "name": "parcel--starter",
+  "name": "itensity-online",
   "version": "1.0.0",
   "scripts": {
     "start": "parcel views/index.pug --open",
